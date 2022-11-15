@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    color: #20af94;
+}
+
+body {
+    background-color: #eae9e4;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+.menu_main {
+    color: white;
+    width: 980px;
+    height: 100px;
+}
+
+.menu_main div h1 {
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 45px;
+}
+
+.menu_main div nav {
+    float: right;
+    margin-top: 42px;
+}
+
+
+.menu_main div nav ul {
+    list-style: none;
+    color: white;
+}
+
+.menu_main div nav ul li {
+    display: inline-block;
+}
+
+.menu_main div nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.style_point {
+    color: #d90619;
+}
+
+/*Presentation*/
+
+.presentation {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #243057;
+    /*width: 940px;*/
+}
+
+.presentation h2 {
+    font-size: 40px;
+}
+
+.we {
+    color: #eae9e4;
+    font-size: 30px;
+
+}
+
+.col_left {
+    float: left;
+    width:6%;
+    margin-top: 35px;
+}
+
+.col_left_2 {
+    float: left;
+    width:6%;
+    margin-top: 28px;
+}
+
+.col_center {
+    display: inline-block;
+    width:1%;
+}
+
+.col_right {
+    float: right;
+    width:93%;
+}
+
+.des {
+    margin-top: 50px;
+    padding-left: 70px;
+    color: #eae9e4;
+    font-size: 30px;
+
+}
+
+/*Formulaire*/
+
+.formulaire_all{
+
+}
+
+.formulaire_all p {
+    width: 300px;
+    display: inline-block;
+}
+
+.formulaire_left {
+
+}
+
+.formulaire_right {
+
+}
+
+/*CHART*/
+
+.horizontal_bar {
+display: flex;
+}
